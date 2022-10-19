@@ -1,0 +1,116 @@
+body {
+    background-color: brown;
+}
+
+.wrapper {
+    width: 940px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+header {
+    height: 160px;
+    background-color: #ededed;
+    background-image: url(../images/일본요리로고.jpg);
+    background-repeat: no-repeat;
+}
+
+header>h1 {
+    text-indent: -4000px;
+    height: 130px;
+    margin: 0;
+    /*h1 - 기본적으로 마진값이 있음*/
+}
+
+header>nav {
+    background-color: #aeaca8;
+    height: 30px;
+}
+
+nav>ul.menu {
+    margin: 0;
+    padding: 5px;
+    /*메뉴가 인라인으로 가로배치인 경우*/
+    padding-left: 30px;
+}
+
+nav>ul.menu>li {
+    display: inline;
+    /*paddng, margin*/
+    /* border: 1px solid red; */
+    margin-right: 40px;
+    /*메뉴 글자 자간 벌리기*/
+}
+
+nav>ul.menu>li>a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    background-color: #aeaca8;
+    height: 30px;
+    clear: both;
+}
+
+footer>p {
+    color: #ffffff;
+    margin-left: 30px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.courses {
+    width: 659px;
+    float: left;
+    border-right: 1px solid #aeaca8;
+}
+
+.courses>article {
+    background-color: #ffffff;
+    overflow: auto;
+}
+
+figure {
+    float: left;
+    width: 290px;
+    padding: 5px;
+    margin: 20px;
+    border: 1px solid #cccccc;
+    box-shadow: 2px 2px #aeaca8;
+}
+
+figcaption {
+    font-size: 90%;
+    font-weight: bold;
+}
+
+.desc>h2 {
+    margin-bottom: 0;
+}
+
+.desc>h3 {
+    margin-top: 0;
+}
+
+aside {
+    float: left;
+    width: 230px;
+    padding: 0;
+    padding-left: 10px;
+}
+
+aside>section {
+    padding: 10px;
+}
+
+aside>section>a {
+    display: block;
+    text-decoration: none;
+    color: orangered;
+}
+
+aside>section>p {
+    margin-top: 0;
+    margin-bottom: 0;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            background-color: aqua;
+            width: 500px;
+        }
+        p.normal{
+            white-space: normal;
+        }
+        p.nowrap{
+            white-space: nowrap;
+        }
+        p.pre{
+            white-space: pre;
+        }   /*공백 전부 인정*/
+    </style>
+</head>
+<body>
+    <h2>화이트스페이스-공백처리</h2>
+    <div>
+        <p class="normal">
+            Lorem ipsum dolor    sit amet consectetur adipisicing elit.
+             Totam suscipit velit eum? Nulla hic obcaecati, <br>
+             ratione adipisci perspiciatis<br>
+              quibusdam facere recusandae accusantium magnam placeat, earum necessitatibus minus sunt nemo voluptatibus?
+        </p>
+    </div>
+
+    <div>
+        <p class="nowrap">
+            Lorem ipsum dolor    sit amet consectetur adipisicing elit.
+             Totam suscipit velit eum? Nulla hic obcaecati, <br>
+             ratione adipisci perspiciatis<br>
+              quibusdam facere recusandae accusantium magnam placeat, earum necessitatibus minus sunt nemo voluptatibus?
+        </p>
+    </div>
+
+    <div>
+        <p class="pre">
+            Lorem ipsum dolor    sit amet consectetur adipisicing elit.
+             Totam suscipit velit eum? Nulla hic obcaecati, <br>
+             ratione adipisci perspiciatis<br>
+              quibusdam facere recusandae accusantium magnam placeat, earum necessitatibus minus sunt nemo voluptatibus?
+        </p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+body{
+    background-color: aqua;
+}
+.wrap{
+width: 1400px;
+margin: 0 auto;
+}
+h1{
+    padding: 0;
+    margin: 0;
+}
+li,ul{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 100px;
+    background-color: rosybrown;
+    border-bottom: 3px solid red;
+}
+#logo{
+    width: 300px;
+    float: left;
+    padding: px;
+    padding-left: 50px;
+}
+section{
+    clear: both;
+}
+nav>ul.menu>li{
+    display: inline;
+    background-color: plum;
+    width: 100px;
+    float: left;
+    text-align: center;
+    list-style: none;
+}
+section>h1{
+    text-align: center;
+
+}
+section>ul.sub2{
+    background-color: pink;
+    text-align: center;
+    padding: 10px 0px;
+}
+section>ul.sub2>li{
+    background-color: #ededed;
+    list-style: none;
+    display: inline;
+    float: left;
+    width: 120px;
+    padding: 5px 7px;
+    border: 1px solid red;
+}
+article{
+    clear: both;
+}

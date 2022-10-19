@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h2{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+            padding: 20px;
+            background-color: aqua;
+            width: 300px;
+            margin: 20px auto;
+            font-size: 150%; 
+            
+        }
+        input{
+            padding: 20px;
+            background-color: aqua;
+            width: 300px;
+            display: block;
+            margin: 20px auto;
+            box-sizing: content-box; /*border-box*/
+            font-size: 150%; 
+            border-radius: 50px;
+            border: 2px double black;
+        }
+        .r1{
+            border-radius: 50px;
+            background-color: aquamarine;
+        }
+        .r2{
+            border-radius: 10px 25px 30px 50px;
+            background-color: brown;
+        }
+        .r3{
+            border-radius: 25px 50px; /*대각선으로 들어간다*/
+            background-color: chocolate;
+        }
+        .r4{
+            border-radius: 29px 70px 0px 70px;
+        }
+        .r5{
+            border: 2px dotted black;
+            border-radius:  50px;
+        }
+    </style>
+</head>
+<body>
+    <h2>둥근 모서리 예제</h2>
+    <p class="r1">둥근 모양 버튼입니다</p>
+    <p class="r2">둥근 모양 버튼입니다</p>
+    <p class="r3">둥근 모양 버튼입니다</p>
+    <p class="r4">둥근 모양 버튼입니다</p>
+    <p class="r5">둥근 모양 버튼입니다</p>
+
+    <input type="button" value="둥근 모양 버튼입니다">
+</body>
+</html>
